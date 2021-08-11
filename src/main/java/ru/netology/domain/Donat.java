@@ -6,5 +6,35 @@ public class Donat {
     private boolean canPublishFreeCopy;
     private String editMode;
 
-//    + get/set на все поля
+    public boolean isDonut() {
+        return isDonut;
+    }
+
+    public void setDonut(boolean donut) {
+        isDonut = donut;
+    }
+
+    public int getPaidDuration() {
+        return paidDuration;
+    }
+
+    public void setPaidDuration(int paidDuration) {
+        this.paidDuration = paidDuration;
+    }
+
+    public boolean isCanPublishFreeCopy() {
+        return canPublishFreeCopy;
+    }
+
+    public void setCanPublishFreeCopy(boolean canPublishFreeCopy) {
+        this.canPublishFreeCopy = canPublishFreeCopy;
+    }
+
+    public String getEditMode() {
+        return editMode;
+    }
+
+    public void setEditMode(String editMode) {
+        this.editMode = editMode;
+    }
 }
